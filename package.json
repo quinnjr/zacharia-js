@@ -1,0 +1,39 @@
+{
+  "name": "zacharia-js",
+  "version": "1.0.0",
+  "description": "Measure time in Zacharias: one Zacharia is Katie Zacharia's 5-day tenure as White House Press Secretary. Node and browser.",
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "time",
+    "duration",
+    "units",
+    "zacharia",
+    "scaramucci"
+  ],
+  "author": "Joseph R. Quinn <quinn.josephr@gmail.com>",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.14.0",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.14.0"
+}
